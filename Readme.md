@@ -1,15 +1,8 @@
-Thanks for downloading this template!
-
-
 # Lemi Lab Website
 
 ## Description
 
 A website created for the lab to showcase our research projects and team members.
-
-## Demo
-
-You can access the live demo [here](https://labwebsite.example.com).
 
 ## Prerequisites
 
@@ -47,4 +40,4 @@ We welcome contributions.
 
 ## Contact Information
 
-For inquiries or support, please contact [your email address].
+For inquiries or support, please contact Jingjing.Bai@nyulagone.org.
