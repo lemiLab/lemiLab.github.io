@@ -658,6 +658,12 @@ section {
   padding-bottom: 10px;
 }
 
+
+/* Social Media Section
+--------------------------------*/
+#social .icon-large {
+  font-size: 50px; 
+}
 /* Services Section
 --------------------------------*/
 #services {
@@ -734,6 +740,38 @@ section {
     text-align: center;
   }
 }
+
+/* Research Section
+--------------------------------*/
+#research {
+  background: #fff;
+  padding: 30px 0 0 0;
+}
+
+#research .member {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#research .pic {
+  overflow: hidden;
+  text-align: left;
+}
+
+#research .pic img {
+  /*max-width: 100%;*/
+  width: 600px; /* Set the desired width */
+  height: 300px; /* Set the desired height */
+  object-fit: cover; 
+}
+
+#research .member .details {
+  background: #50d8af;
+  color: #fff;
+  padding: 15px;
+  border-radius: 0 0 3px 3px;
+}
+
 
 /* Clients Section
 --------------------------------*/
@@ -936,6 +974,10 @@ section {
   padding: 0;
 }
 
+.portfolio.icon-large {
+  font-size: 40px; /* Adjust the font size as needed */
+}
+
 /* Testimonials Section
 --------------------------------*/
 #testimonials {
@@ -1116,6 +1158,62 @@ section {
 }
 
 #team .member .social i {
+  font-size: 16px;
+  margin: 0 2px;
+}
+
+/* Current Section
+--------------------------------*/
+#current {
+  background: #fff;
+  padding: 30px 0 0 0;
+}
+
+#current .member {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#current .member .pic {
+  overflow: hidden;
+  text-align: center;
+}
+
+#current .member .pic img {
+  /*max-width: 100%;*/
+  width: 300px; /* Set the desired width */
+  height: 300px; /* Set the desired height */
+  object-fit: cover; 
+}
+
+#current .member .details {
+  background: #50d8af;
+  color: #fff;
+  padding: 15px;
+  border-radius: 0 0 3px 3px;
+}
+
+#current.member h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+}
+
+#current .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+}
+
+#current .member .social {
+  margin-top: 5px;
+}
+
+#current .member .social a {
+  color: #fff;
+}
+
+#current .member .social i {
   font-size: 16px;
   margin: 0 2px;
 }
