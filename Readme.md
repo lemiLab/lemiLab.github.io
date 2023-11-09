@@ -40,4 +40,4 @@ We welcome contributions.
 
 ## Contact Information
 
-For inquiries or support, please contact Jingjing.Bai@nyulagone.org.
+For inquiries or support, please contact lemiLab
