@@ -16,7 +16,7 @@ body {
 }
 
 a {
-  color: #50d8af;
+  color: #5B2C6F;
   text-decoration: none;
   transition: 0.5s;
 }
@@ -56,7 +56,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #50d8af;
+  background: #5B2C6F;
   width: 40px;
   height: 40px;
   transition: all 0.4s;
@@ -91,7 +91,7 @@ h6 {
 
 #topbar .contact-info i {
   font-style: normal;
-  color: #50d8af;
+  color: #5B2C6F;
 }
 
 #topbar .contact-info i a,
@@ -106,7 +106,7 @@ h6 {
 }
 
 #topbar .contact-info i a:hover {
-  color: #50d8af;
+  color: #5B2C6F;
 }
 
 #topbar .social-links a {
@@ -118,7 +118,7 @@ h6 {
 }
 
 #topbar .social-links a:hover {
-  color: #50d8af;
+  color: #5B2C6F;
 }
 
 #topbar .social-links a:first-child {
@@ -149,7 +149,7 @@ h6 {
 }
 
 #header #logo h1 a span {
-  color: #50d8af;
+  color: #5B2C6F;
 }
 
 #header #logo img {
@@ -222,7 +222,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #50d8af;
+  color: #5B2C6F;
 }
 
 .navbar .dropdown ul {
@@ -256,7 +256,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #50d8af;
+  color: #5B2C6F;
 }
 
 .navbar .dropdown:hover>ul {
@@ -276,6 +276,20 @@ h6 {
   top: 0;
   left: 100%;
   visibility: visible;
+}
+
+.navbar .search-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  margin-top: 50px; /* Adjust this margin to prevent content from being overlapped by the search bar */
 }
 
 @media (max-width: 1366px) {
@@ -355,7 +369,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #50d8af;
+  color: #5B2C6F;
 }
 
 .navbar-mobile .getstarted,
@@ -390,7 +404,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #50d8af;
+  color: #5B2C6F;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -402,7 +416,7 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 60vh;
+  height: 80vh;
   position: relative;
   background: url("../img/hero-carousel/1.jpg") no-repeat;
   background-size: cover;
@@ -431,7 +445,7 @@ h6 {
 }
 
 #hero .hero-content h2 span {
-  color: #50d8af;
+  color: #5B2C6F;
   text-decoration: underline;
 }
 
@@ -466,18 +480,18 @@ h6 {
 }
 
 #hero .hero-content .btn-projects {
-  background: #50d8af;
-  border: 2px solid #50d8af;
+  background: #5B2C6F;
+  border: 2px solid #5B2C6F;
 }
 
 #hero .hero-content .btn-projects:hover {
   background: none;
-  color: #50d8af;
+  color: #5B2C6F;
 }
 
 #hero .hero-slider {
   z-index: 8;
-  height: 60vh;
+  height: 80vh;
 }
 
 #hero .hero-slider::before {
@@ -498,6 +512,7 @@ h6 {
   background-position: center;
   background-repeat: no-repeat;
   transition-property: opacity;
+ 
 }
 
 /*--------------------------------------------------------------
@@ -529,7 +544,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #50d8af;
+  background: #5B2C6F;
   bottom: 0;
   left: 0;
 }
@@ -646,7 +661,7 @@ section {
 #about .content i {
   font-size: 20px;
   padding-right: 4px;
-  color: #50d8af;
+  color: #5B2C6F;
 }
 
 #about .content ul {
@@ -699,7 +714,7 @@ section {
 
 #services .box .icon i:before {
   background: #0c2e8a;
-  background: linear-gradient(45deg, #50d8af 0%, #a3ebd5 100%);
+  background: linear-gradient(45deg, #5B2C6F 0%, #a3ebd5 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -766,7 +781,7 @@ section {
 }
 
 #research .member .details {
-  background: #50d8af;
+  background: #5B2C6F;
   color: #fff;
   padding: 15px;
   border-radius: 0 0 3px 3px;
@@ -800,12 +815,22 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #50d8af;
+  border: 1px solid #5B2C6F;
 }
 
 #clients .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #50d8af;
+  background-color: #5B2C6F;
 }
+  /* Publications Section
+--------------------------------*/
+#publications img {
+  width: 200px; /* Set the width to 200 pixels */
+  height: 150px; /* Set the height to 150 pixels */
+  display: flex;
+  margin-top: 40px;
+}
+
+
 
 /* Our Portfolio Section
 --------------------------------*/
@@ -839,7 +864,7 @@ section {
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #50d8af;
+  background: #5B2C6F;
 }
 
 #portfolio #portfolio-flters li:last-child {
@@ -865,7 +890,7 @@ section {
   bottom: -50px;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: #50d8af;
+  background: #5B2C6F;
   padding: 15px 20px;
 }
 
@@ -909,6 +934,8 @@ section {
   bottom: 0;
 }
 
+
+
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
@@ -917,7 +944,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-slider img {
-  width: 100%;
+  width: 300%;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
@@ -930,11 +957,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #50d8af;
+  border: 1px solid #5B2C6F;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #50d8af;
+  background-color: #5B2C6F;
 }
 
 .portfolio-details .portfolio-info {
@@ -977,6 +1004,9 @@ section {
 .portfolio.icon-large {
   font-size: 40px; /* Adjust the font size as needed */
 }
+
+
+
 
 /* Testimonials Section
 --------------------------------*/
@@ -1054,11 +1084,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #50d8af;
+  border: 1px solid #5B2C6F;
 }
 
 #testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #50d8af;
+  background-color: #5B2C6F;
 }
 
 /* Call To Action Section
@@ -1102,8 +1132,8 @@ section {
 }
 
 #call-to-action .cta-btn:hover {
-  background: #50d8af;
-  border: 3px solid #50d8af;
+  background: #5B2C6F;
+  border: 3px solid #5B2C6F;
 }
 
 /* Our Team Section
@@ -1131,7 +1161,7 @@ section {
 }
 
 #team .member .details {
-  background: #50d8af;
+  background: #5B2C6F;
   color: #fff;
   padding: 15px;
   border-radius: 0 0 3px 3px;
@@ -1187,7 +1217,7 @@ section {
 }
 
 #current .member .details {
-  background: #50d8af;
+  background: #5B2C6F;
   color: #fff;
   padding: 15px;
   border-radius: 0 0 3px 3px;
@@ -1244,7 +1274,7 @@ section {
 }
 
 #alumni .member .details {
-  background: #50d8af;
+  background: #5B2C6F;
   color: #fff;
   padding: 15px;
   border-radius: 0 0 3px 3px;
@@ -1290,7 +1320,7 @@ section {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #50d8af;
+  color: #5B2C6F;
 }
 
 #contact .contact-info address,
@@ -1312,7 +1342,7 @@ section {
 }
 
 #contact .contact-info a:hover {
-  color: #50d8af;
+  color: #5B2C6F;
 }
 
 #contact .contact-address,
@@ -1407,11 +1437,11 @@ section {
 
 #contact .php-email-form input::focus,
 #contact .php-email-form textarea::focus {
-  background-color: #50d8af;
+  background-color: #5B2C6F;
 }
 
 #contact .php-email-form button[type=submit] {
-  background: #50d8af;
+  background: #5B2C6F;
   border: 0;
   border-radius: 3px;
   padding: 10px 30px;
@@ -1433,11 +1463,36 @@ section {
     transform: rotate(360deg);
   }
 }
+#contact .backgroundimg {
+  position: relative;
+  text-align: center;
+}
+
+#contact .img {
+  width: 100%; /* Adjust the width as needed */
+  height: 600px; /* Adjust the height as needed */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.8; /* You can adjust opacity as needed (1 is fully visible) */
+}
+
+
+#contact .overlay-text {
+  position: absolute;
+  top: 50%; /* Position the text vertically in the middle */
+  left: 50%; /* Position the text horizontally in the middle */
+  transform: translate(-50%, -50%); /* Center the text precisely */
+  color: #fff; /* Text color */
+  background: rgba(0, 0, 0, 0.5); /* Background color with some transparency */
+  padding: 20px; /* Add padding for better readability */
+}
+
 
 /*--------------------------------------------------------------
-# Footer
+# Footer Section
 --------------------------------------------------------------*/
-#footer {
+/*#footer {
   background: #f2f5f8;
   padding: 0 0 30px 0;
   font-size: 14px;
@@ -1456,4 +1511,143 @@ section {
 
 #footer .credits a {
   color: #0c2e8a;
+}*/
+
+#footer .backgroundimg {
+  position: relative;
+  text-align: center;
+}
+#footer .img {
+  width: 100%; /* Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.5; /* You can adjust opacity as needed (1 is fully visible) */
+}
+
+
+#footer .overlay-text {
+  position: absolute;
+  top: 50%; /* Position the text vertically in the middle */
+  left: 50%; /* Position the text horizontally in the middle */
+  transform: translate(-50%, -50%); /* Center the text precisely */
+  color: #000000; /* Text color */
+  background: none; /* Background color with some transparency */
+  padding: 20px; /* Add padding for better readability */
+}
+
+/* Open positions Section
+--------------------------------*/
+
+#OpenPositions .custom-list {
+  font-size: 18px;
+  color: #5B2C6F;
+}
+
+#OpenPositions .custom-list li {
+  font-size: 18px;
+}
+#OpenPositions .position-title {
+  color: #AF7AC5; /* Color for the position title */
+  
+}
+
+#OpenPositions .position-description {
+  color: #000000; /* Color for the position description */
+}
+
+/* search Section
+--------------------------------*/
+/* search Section */
+
+#search {
+  display: none;
+  position: relative;
+  z-index: 1000; /* Make it appear above the overlay */
+}
+
+#search .wraptext {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+#search .search-term {
+  width: 100%;
+  border: 3px solid red;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9dbfaf;
+}
+
+#search .search-term:focus {
+  color: #00b4cc;
+}
+
+#search .search-button {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #9dbfaf;
+  background: #9dbfaf;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+
+  /* News Section
+--------------------------------*/
+.news .news-row {
+  display:inline-flex;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 30px;
+}
+
+.news .news-item {
+  flex: 0 0 calc(30% - 20px);
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.news .news-item img {
+  width: 400px;
+  height: 400px;
+}
+
+.news .news-item p {
+  font-size: 2ppx;
+  color: #333;
+  padding: 10px;
+
+}
+
+.news .news-swiper-container .swiper-slide {
+  width: 50vw;
+  height: 80vh; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.news .news-swiper-container .swiper-slide img {
+  width: 100%; /* Make sure the image takes the full width of the container */
+  height: 100%; /* Make sure the image takes the full height of the container */
+  object-fit: cover; /* Ensure the image covers the entire container while maintaining aspect ratio */
+  display: block; /* Display the images */
+  opacity: 0; /* Hide the images initially */
+}
+.news .news-swiper-container .swiper-slide-active img {
+  opacity: 1; /* Make the active slide's image visible */
+}
+.news .news-swiper-container .swiper-pagination {
+  margin-top: 10px;
+  position: relative;
 }

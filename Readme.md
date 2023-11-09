@@ -1,4 +1,4 @@
-# Lemi Lab Website
+# LBIN Lab Website
 
 ## Description
 
